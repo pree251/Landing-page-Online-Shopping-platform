@@ -1,0 +1,203 @@
+/* TITLE SECTION */
+
+#title {
+  text-align: left;
+}
+
+.subtitle {
+  margin: 30px 0 35px;
+  font-size: 1rem;
+}
+
+/* BESTSELLERS SECTION */
+
+#bestsellers {
+  font-size: 1.2rem;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.row-class {
+  margin: 0;
+}
+
+.row-class>div {
+  padding: 0;
+}
+
+/* COLLECTIONS SECTION */
+
+#collections {
+  margin: 75px 100px;
+}
+
+.card-link {
+  color: black;
+  font-size: 13px;
+}
+
+.card-link:hover {
+  color:white;
+}
+
+.collection-col {
+  padding: 3% 4%;
+}
+
+/* COLORED SECTIONS */
+
+.colored-section {
+  background-color: #B5EAEA;
+  color: black;
+}
+
+/* BUTTONS */
+
+.btn-add, .btn-explore, .btn-submit {
+  background-color: #B5EAEA;
+  color: black;
+}
+
+.btn-shopnow, .btn-search {
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  border-width: 0;
+  font-size: 1.125rem;
+}
+
+.btn-shopnow:hover, .btn-search:hover {
+  background-color: #FFBCBC;
+}
+
+.btn-add {
+  border-width: 0;
+}
+
+.btn-add:hover, .btn-explore:hover {
+  color: white;
+  background-color: black;
+}
+
+.btn-explore {
+  border-width: 0;
+  font-size: 1.5rem;
+  margin: 75px auto;
+}
+
+/* CONTAINER */
+
+.container-fluid {
+  padding: 4% 10%;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-size: 2.1rem;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.search-bar {
+  border-radius: 30px;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+/* PRESS SECTION */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px;
+}
+
+/* FOOTER */
+
+.newsletter {
+  text-align: left;
+  font-size: 15px;
+}
+
+.newsletter1 {
+  font-size: 20px;
+}
+
+.footer {
+  padding-top: 25px;
+}
+
+/* HEADINGS */
+
+.big-heading {
+  font-family: 'Rosario', sans-serif;
+  line-height: 1.5;
+  font-size: 3.2rem;
+}
+
+h2, h3, h4 {
+  font-family: 'Rosario', sans-serif;
+}
+
+h2 {
+  margin: 75px auto;
+  font-size: 2.8rem;
+}
+
+h3 {
+  padding-top: 5%;
+  line-height: 2;
+}
+
+hr {
+  color: #B5EAEA;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: solid;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+/* MEDIA QUERIES */
+
+@media (max-width:990px) {
+  #title{
+    text-align:center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .newsletter{
+    text-align:center;
+  }
+}
